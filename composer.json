@@ -1,0 +1,28 @@
+{
+    "name":        "babaganoush/foundation-bundle",
+    "type":        "symfony-bundle",
+    "description": "ZURB Foundation Bundle for Symfony",
+    "keywords":    ["responsive", "javascript", "symfony"],
+    "homepage":    "http://foundation.zurb.com/",
+    "license":     ["MIT"],
+    "authors":     [
+        {
+            "name":     "Saud Faisal",
+            "email":    "saud@2levelsabove.com",
+            "homepage": "http://2levelsabove.com"
+        }
+    ],
+    "require":     {
+        "symfony/framework-bundle": ">=2.3",
+        "bmatzner/jquery-bundle": ">=1.11"
+    },
+    "recommend":   {
+        "bmatzner/modernizr-bundle": "*"
+    },
+    "autoload":    {
+        "psr-0": {
+            "Babaganoush\\FoundationBundle": ""
+        }
+    },
+    "target-dir":  "Babaganoush/FoundationBundle"
+}
